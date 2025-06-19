@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- Lesson 0: HTML5 document declaration -->
+
+<html lang="en">
+<!-- Lesson 1: Root of the HTML page -->
+
+<head>
+    <!-- Lesson 2: Metadata and styling -->
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+
+    <!-- external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal CSS -->
+    <style>
+        /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Tag Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 10px;
+        }
+
+        /* Class Selector */
+        .highlight {
+            color: darkorange;
+            font-style: italic;
+        }
+
+        /* ID Selector */
+        #unique-text {
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Grouping Selector */
+        h2,
+        p,
+        .box-model {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        /* Box Model Example */
+        .box-model {
+            width: 300px;
+            height: 150px;
+            background-color: #fff;
+            border: 2px solid #555;
+            padding: 20px;
+            margin: 30px auto;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Lesson 3: Page content -->
+
+    <header>
+        <div class="main-header">
+            <h3 class="header-info">
+                <a href="index.html">Albe Shop</a>
+            </h3>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Price</a>
+                <a href="">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- Lesson 5–9: Content and formatting -->
+        <h3>Hello World</h3>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p><b>This is bold text</b></p>
+        <p><i>This is italic text</i></p>
+        <p><u>This is underlined text</u></p>
+
+        <p>This is the first line.<br>This is the second line.</p>
+
+        <!-- Inline CSS -->
+        <p style="color: blue; font-weight: bold;">This text uses inline CSS</p>
+
+        <!-- Class Selector Example -->
+        <p class="highlight">This paragraph uses a class selector</p>
+
+        <!-- ID Selector Example -->
+        <p id="unique-text">This paragraph uses an ID selector</p>
+
+        <!-- Box Model Example -->
+        <div class="box-model">
+            This is a box model example
+        </div>
+    </main>
+
+    <footer>
+        <p>Instagram: @sam</p>
+    </footer>
+</body>
+
+</html>

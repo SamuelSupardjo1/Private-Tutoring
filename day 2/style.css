@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/bg1.jpeg");
+    background-size: cover;
+    color: #520404;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Container */
+.main-header {
+    background-image: linear-gradient(rgb(197, 141, 137), rgb(252, 232, 204));
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    z-index: 1;
+}
+ 
+/* Title Section */
+.header-info {
+    color: rgb(219, 84, 75);
+    margin: 0;
+    padding: 0;
+}
+
+/* Link inside Title */
+.header-info a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    font-weight: bold;
+    font-size: 18px;
+} b     
+
+/* Navigation Links */
+nav   {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+}
+
+/* Hover effect */
+.header-info a:hover,
+nav a:hover {
+    color: rgb(255, 105, 97);
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+} 
+
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.items {
+    display: flex;
+    justify-content: center;  .............
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-image: linear-gradient(rgb(197, 141, 137), rgb(252, 232, 204));
+
+}
+
+.portrait {
+    width: 260px;
+    height: 350px;
+}
+
+.landscape {
+    width: 350px;
+    height: 240px;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px blue;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+th {
+    color: white;
+    background-color: cadetblue;
+}
+
+tr, th {
+	height: 50px;
+	text-align: center; 
+    vertical-align: center; 
+}
+
+button {
+    background-color: rgba(219, 85, 75, 0.616);
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: 20pt;
+}
+
+button:hover {
+    transform: scale(1.2, 1.2);
+    background-color: rgb(219, 85, 75);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: gainsboro;
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2.price {
+    font-size: 38px;
+    color: black;
+}
+
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.list li {
+    margin-top: 20px;
+    color: black;
+}
+
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/*
+| Value           | Description                                                                               | Visual Alignment |
+| --------------- | ----------------------------------------------------------------------------------------- | ---------------- |
+| `flex-start`    | Items are aligned to the **start** (left) of the container.                               | 📍📦📦📦         |
+| `flex-end`      | Items are aligned to the **end** (right) of the container.                                | 📦📦📦📍         |
+| `center`        | Items are **centered** in the container.                                                  | 📍📦📦📦📍       |
+| `space-between` | Items are **evenly distributed**; **first at start**, **last at end**, others in between. | 📦──📦──📦       |
+| `space-around`  | Items have **equal space around them** (half-size gaps on sides).                         | ─📦─📦─📦─       |
+| `space-evenly`  | Items have **equal space between** and **on both ends**.                                  | 📦──📦──📦       |
+*/
